@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Energia_MP - Community Manager profesional con más de 22 empresas gestionadas en el oriente de Colombia">
+    <title>Energia_MP - Community Manager Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor personalizado -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+    
+    <!-- Fondo de partículas animadas -->
+    <canvas id="particlesCanvas"></canvas>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="image.png" alt="Energia_MP Logo" class="logo-img">
+                <span>energia_mp</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#planes">Planes</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger" role="button" aria-label="Abrir menú" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero reveal">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-logo-container">
+                    <img src="image.png" alt="Energia_MP" class="hero-logo">
+                </div>
+                <span class="subtitle">Community Manager Profesional</span>
+                <h1>energia_mp</h1>
+                <p class="hero-description">
+                    ¡Con una experiencia impresionante! ⭐
+
+📊 Actualmente gestiono más de 22 empresas de manera simultánea
+🏆 Posicionada como una de las CM más solicitadas del oriente
+📈 Resultados comprobables: +150% engagement promedio
+💼 Trabajo con las mejores empresas de la región
+
+Sectores atendidos: restaurantes, salud, retail, tecnología, belleza, educación, automotriz, inmobiliaria y más.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">Trabajemos Juntos</a>
+                    <a href="#experiencia" class="btn btn-secondary">Ver Experiencia</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>+22</h3>
+                    <p>Empresas Gestionadas</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Estadísticas -->
+    <section class="stats reveal">
+        <div class="container">
+            <div class="stat-item">
+                <i class="fas fa-building"></i>
+                <h3 class="counter" data-target="22">0</h3>
+                <p>Empresas Activas</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <h3 class="counter" data-target="16">0</h3>
+                <p>K+ Seguidores</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-award"></i>
+                <h3 class="counter" data-target="5">0</h3>
+                <p>Años de Experiencia</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-heart"></i>
+                <h3 class="counter" data-target="98">0</h3>
+                <p>% Satisfacción</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Conoce mi trabajo</span>
+                <h2>Community Manager de Excelencia</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">
+                        Con más de <strong>22 empresas</strong> bajo mi gestión, me especializo en crear
+                        estrategias digitales que impulsan el crecimiento y la visibilidad de las marcas
+                        más importantes del oriente del país.
+                    </p>
+                    <p>
+                        Mi experiencia abarca desde pequeñas empresas locales hasta grandes corporaciones,
+                        siempre manteniendo el mismo nivel de compromiso y excelencia en cada proyecto.
+                        Entiendo que cada marca es única y merece una estrategia personalizada que refleje
+                        su esencia y conecte con su audiencia.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Gestión de Redes Sociales</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Estrategia de Contenido</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Marketing Digital</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Análisis de Métricas</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Community Management</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Publicidad Digital</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="image.png" alt="Energia_MP" class="about-logo-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Lo que ofrezco</span>
+                <h2>Servicios Profesionales</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Gestión de Redes Sociales</h3>
+                    <p>
+                        Administración completa de todas tus plataformas sociales con contenido
+                        estratégico y de calidad que genera engagement real.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Estrategia de Contenido</h3>
+                    <p>
+                        Creación de planes de contenido personalizados que cuentan tu historia
+                        y conectan emocionalmente con tu audiencia.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>Gestion de Redes Sociales</h3>
+                    <p>
+                        Campañas publicitarias efectivas en Facebook, Instagram y Google Ads
+                        con ROI medible y optimizado.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Análisis y Reportes</h3>
+                    <p>
+                        Monitoreo constante de métricas clave y reportes detallados para
+                        tomar decisiones basadas en datos reales.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Community Management</h3>
+                    <p>
+                        Gestión activa de la comunidad, respondiendo comentarios y mensajes
+                        para construir relaciones duraderas.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Producción de Contenido</h3>
+                    <p>
+                        Creación de contenido visual atractivo: fotos, videos, stories y
+                        diseños que destacan tu marca.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Especialista: Diana Bedoya -->
+    <section id="diana-bedoya" class="diana-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Perfil Estratégico</span>
+                <h2>Especialista en Servicio al Cliente • Operación • Formación Comercial</h2>
+            </div>
+
+            <div class="diana-value-card">
+                <h3>💼 Propuesta de Valor</h3>
+                <p>
+                    Optimizo la operación en punto de venta y transformo la experiencia del cliente para aumentar ventas,
+                    fidelizar y construir equipos que sí convierten.
+                </p>
+            </div>
+
+            <div class="diana-services-grid">
+                <article class="diana-service-card service-card reveal">
+                    <div class="service-icon"><i class="fas fa-headset"></i></div>
+                    <h3>🔥 1. Gestión de Servicio al Cliente (360°)</h3>
+                    <ul>
+                        <li>Diseño de protocolos de atención (saludo, asesoría, cierre, despedida)</li>
+                        <li>Estandarización de procesos en punto de venta</li>
+                        <li>Manejo de PQRS y recuperación de clientes</li>
+                        <li>Customer Journey (mapa de experiencia)</li>
+                        <li>Scripts de atención y ventas</li>
+                    </ul>
+                    <p class="diana-result">👉 Resultado: experiencia consistente que vende</p>
+                </article>
+
+                <article class="diana-service-card service-card reveal">
+                    <div class="service-icon"><i class="fas fa-store"></i></div>
+                    <h3>🏪 2. Optimización de Operación en Punto de Venta</h3>
+                    <ul>
+                        <li>Diagnóstico operativo completo</li>
+                        <li>Organización de flujo de atención</li>
+                        <li>Tiempos de servicio y mejora de eficiencia</li>
+                        <li>Checklists operativos diarios</li>
+                        <li>Control de calidad en atención</li>
+                    </ul>
+                    <p class="diana-result">👉 Resultado: operación ágil, ordenada y rentable</p>
+                </article>
+
+                <article class="diana-service-card service-card reveal">
+                    <div class="service-icon"><i class="fas fa-sack-dollar"></i></div>
+                    <h3>💰 3. Impulsación y Conversión de Ventas</h3>
+                    <ul>
+                        <li>Técnicas de cierre efectivas</li>
+                        <li>Upselling y cross-selling</li>
+                        <li>Activaciones comerciales en punto</li>
+                        <li>Diseño de promociones estratégicas</li>
+                        <li>Entrenamiento en lenguaje persuasivo</li>
+                    </ul>
+                    <p class="diana-result">👉 Resultado: más ventas con los mismos clientes</p>
+                </article>
+
+                <article class="diana-service-card service-card reveal">
+                    <div class="service-icon"><i class="fas fa-people-group"></i></div>
+                    <h3>👥 4. Manejo y Liderazgo de Personal</h3>
+                    <ul>
+                        <li>Reclutamiento de perfiles comerciales</li>
+                        <li>Capacitación inicial y continua</li>
+                        <li>Supervisión y seguimiento de desempeño</li>
+                        <li>Creación de cultura de servicio</li>
+                        <li>Evaluación por KPIs (conversión, ticket promedio, atención)</li>
+                    </ul>
+                    <p class="diana-result">👉 Resultado: equipos alineados y productivos</p>
+                </article>
+
+                <article class="diana-service-card service-card reveal">
+                    <div class="service-icon"><i class="fas fa-chalkboard-user"></i></div>
+                    <h3>🎓 5. Capacitación Empresarial (Alta Impacto)</h3>
+                    <p class="diana-subtitle">Programas prácticos para equipos:</p>
+                    <ul>
+                        <li>Servicio al cliente que vende</li>
+                        <li>Psicología del cliente</li>
+                        <li>Manejo de clientes difíciles</li>
+                        <li>Técnicas de cierre</li>
+                        <li>Experiencia premium en punto de venta</li>
+                    </ul>
+                    <p class="diana-result">👉 Incluye: talleres dinámicos + casos reales + seguimiento</p>
+                </article>
+
+                <article class="diana-service-card service-card reveal">
+                    <div class="service-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                    <h3>📊 6. Auditoría y Mejora Continua</h3>
+                    <ul>
+                        <li>Cliente incógnito (mystery shopper)</li>
+                        <li>Evaluación de experiencia real</li>
+                        <li>Reporte con oportunidades de mejora</li>
+                        <li>Plan de acción inmediato</li>
+                    </ul>
+                    <p class="diana-result">👉 Resultado: decisiones basadas en realidad, no en suposiciones</p>
+                </article>
+            </div>
+
+            <div class="diana-differential">
+                <h3>🌟 Diferencial</h3>
+                <div class="diana-differential-grid">
+                    <p>✔ Experiencia real en operación y ventas</p>
+                    <p>✔ Más de 87 campañas ejecutadas</p>
+                    <p>✔ Enfoque en resultados medibles</p>
+                    <p>✔ Equipos entrenados para vender, no solo atender</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos/Clientes -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Portafolio</span>
+                <h2>Empresas que Confían en Mí</h2>
+                <p class="section-description">
+                    Más de 22 marcas exitosas gestionadas con resultados comprobables
+                </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="restaurante">
+                    <div class="project-overlay"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Alitas House</h3>
+                        <p>Restaurante</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-users"></i> +2.000K</span>
+                            <span><i class="fas fa-heart"></i> 95%</span>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Estrategia completa de redes sociales que incrementó el engagement en 500%</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="salud">
+                    <div class="project-overlay"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Espident</h3>
+                        <p>Clínica Dental</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-users"></i> +1.500K</span>
+                            <span><i class="fas fa-heart"></i> 98%</span>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Posicionamiento digital que generó un aumento del 150% en consultas</p>
+                    </div>
+                </div>
+
+                  <div class="project-card" data-category="Infantil">
+                    <div class="project-overlay"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Kids Spa</h3>
+                        <p>Especialistas en niños y en toda la familia</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-users"></i> +4.500K</span>
+                            <span><i class="fas fa-heart"></i> 98%</span>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Creación de contenido estratégico diseñado para estrechar el vínculo entre padres e hijos</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="automotriz">
+                    <div class="project-overlay"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Autostart</h3>
+                        <p>Automotriz</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-users"></i> +1.000K</span>
+                            <span><i class="fas fa-heart"></i> 92%</span>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Campañas digitales efectivas que triplicaron las consultas mensuales</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="salud">
+                    <div class="project-overlay"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Panorama Dental</h3>
+                        <p>Clínica Odontológica</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-users"></i> +1.000K</span>
+                            <span><i class="fas fa-heart"></i> 96%</span>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Gestión integral que posicionó la marca como referente en la región</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="educacion">
+                    <div class="project-overlay"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mi Mundo Mágico</h3>
+                        <p>Centro Infantil</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-users"></i> +1.000K</span>
+                            <span><i class="fas fa-heart"></i> 99%</span>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Contenido emotivo que conecta con padres, aumentando inscripciones en 180%</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="tecnologia">
+                    <div class="project-overlay"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Clickgoo</h3>
+                        <p>Domicilios</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-users"></i> +1.500K</span>
+                            <span><i class="fas fa-heart"></i> 94%</span>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Estrategia que generó Satisfacción en nuestros clientes y partnerships estratégicos</p>
+                    </div>
+                </div>
+
+                <div class="project-card more-projects">
+                    <div class="project-overlay"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>+16 Empresas Más</h3>
+                        <p>Diversos Sectores</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-building"></i> 22+</span>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Restaurantes, retail, salud, belleza, tecnología y más sectores exitosos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="floating-particles"></div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Trayectoria</span>
+                <h2>Trabajando con las Mejores Empresas del Oriente</h2>
+                <p class="section-description">
+                    Con amplia experiencia gestionando más de 22 empresas simultáneamente,
+                    he desarrollado estrategias exitosas para diversos sectores comerciales.
+                </p>
+            </div>
+            <div class="experience-content">
+                <div class="experience-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h4>Liderazgo en el Oriente</h4>
+                        <p>
+                            Posicionada como una de las community managers más solicitadas
+                            de la región, trabajando con las empresas más prestigiosas.
+                        </p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Gestión Multisectorial</h4>
+                        <p>
+                            Experiencia comprobada en restaurantes, retail, servicios,
+                            tecnología, salud, belleza y más sectores comerciales.
+                        </p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>Resultados Comprobables</h4>
+                        <p>
+                            Incremento promedio del 150% en engagement y 200% en alcance
+                            para las empresas bajo mi gestión.
+                        </p>
+                    </div>
+                </div>
+                <div class="clients-section">
+                    <h3>Sectores Atendidos</h3>
+                    <div class="sectors-grid">
+                        <div class="sector-tag">
+                            <i class="fas fa-utensils"></i>
+                            <span>Restaurantes</span>
+                        </div>
+                        <div class="sector-tag">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span>Retail</span>
+                        </div>
+                        <div class="sector-tag">
+                            <i class="fas fa-spa"></i>
+                            <span>Belleza</span>
+                        </div>
+                        <div class="sector-tag">
+                            <i class="fas fa-heartbeat"></i>
+                            <span>Salud</span>
+                        </div>
+                        <div class="sector-tag">
+                            <i class="fas fa-laptop"></i>
+                            <span>Tecnología</span>
+                        </div>
+                        <div class="sector-tag">
+                            <i class="fas fa-home"></i>
+                            <span>Inmobiliaria</span>
+                        </div>
+                        <div class="sector-tag">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Educación</span>
+                        </div>
+                        <div class="sector-tag">
+                            <i class="fas fa-car"></i>
+                            <span>Automotriz</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planes y Precios -->
+    <section id="planes" class="plans-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Nuestras Opciones</span>
+                <h2>Planes Diseñados para tu Marca</h2>
+                <p class="section-description">
+                    Elige el plan que mejor se adapte a tus necesidades y comienza a transformar tu presencia digital
+                </p>
+            </div>
+
+            <div class="plans-grid">
+                <!-- Plan Básico -->
+                <div class="plan-card plan-basic">
+                    <div class="plan-badge">Plan Básico</div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount">720.000</span>
+                    </div>
+                    <p class="plan-frequency">Mensual</p>
+                    <p class="plan-discount">💡 Si pagas 3 meses adelantado, recibe descuento</p>
+
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> 4 Reels profesionales</li>
+                        <li><i class="fas fa-check"></i> 4 publicaciones</li>
+                        <li><i class="fas fa-check"></i> 10 Historias atractivas</li>
+                        <li><i class="fas fa-check"></i> Copy optimizado para Instagram</li>
+                        <li><i class="fas fa-check"></i> Edición de contenido</li>
+                        <li><i class="fas fa-check"></i> Llamado a la acción potente</li>
+                        <li><i class="fas fa-check"></i> Informe de estadísticas de crecimiento</li>
+                        <li><i class="fas fa-check"></i> Alianzas con otras empresas</li>
+                        <li><i class="fas fa-check"></i> Parrilla de contenido</li>
+                        <li><i class="fas fa-check"></i> Protocolo de servicios</li>
+                        <li><i class="fas fa-check"></i> Encuesta de satisfacción</li>
+                    </ul>
+
+                    <div class="plan-footer">
+                        <p class="plan-slogan">Haz que tu marca se vea, se escuche... ¡y se recuerde!</p>
+                        <a href="#contacto" class="btn btn-primary btn-block">Elegir Plan</a>
+                    </div>
+                </div>
+
+                <!-- Plan Avanzado -->
+                <div class="plan-card plan-advanced plan-featured">
+                    <div class="plan-badge plan-badge-premium">⭐ Plan Avanzado</div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount">1.220.000</span>
+                    </div>
+                    <p class="plan-frequency">Mensual</p>
+                    <p class="plan-discount">💡 Si pagas 3 meses adelantado, recibe descuento</p>
+
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> 8 Reels profesionales con edición dinámica y enfoque estratégico</li>
+                        <li><i class="fas fa-check"></i> 8 publicaciones</li>
+                        <li><i class="fas fa-check"></i> 20 Historias creativas para mantener la conexión constante con tu audiencia</li>
+                        <li><i class="fas fa-check"></i> Copywriting optimizado para Instagram, diseñado para atraer, conectar y convertir</li>
+                        <li><i class="fas fa-check"></i> Edición contenido visualmente impactante e impactante y alineada a la identidad de la marca</li>
+                        <li><i class="fas fa-check"></i> Llamados a la acción claros y efectivos para impulsar la interacción y conversión</li>
+                        <li><i class="fas fa-check"></i> Alianzas estratégicas con más de 50 empresas aliadas, para potenciar tu visibilidad</li>
+                        <li><i class="fas fa-check"></i> Informe estratégico con métricas y resultados, para medir el impacto real del contenido</li>
+                        <li><i class="fas fa-check"></i> 1 video profesional con Microinfluencer, mostrando la marca desde una voz cercana y auténtica</li>
+                        <li><i class="fas fa-check"></i> Activaciones en punto de venta</li>
+                        <li><i class="fas fa-check"></i> Estrategias de upselling y cross-selling</li>
+                        <li><i class="fas fa-check"></i> Capacitación en cierre de ventas</li>
+                        <li><i class="fas fa-check"></i> Diseño de promociones y campañas tácticas</li>
+                        <li><i class="fas fa-check"></i> Protocolos de servicio personalizados</li>
+                    </ul>
+
+                    <div class="plan-footer">
+                        <p class="plan-slogan">✨ Posiciona tu marca, genera confianza, aumenta seguidores y logra que tu comunidad crezca de forma orgánica y estratégica.</p>
+                        <a href="#contacto" class="btn btn-primary btn-block">Elegir Plan</a>
+                    </div>
+                </div>
+
+                <!-- Plan Premium -->
+                <div class="plan-card plan-premium plan-featured">
+                    <div class="plan-badge plan-badge-premium">👑 Plan Premium</div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount">3.220.000</span>
+                    </div>
+                    <p class="plan-frequency">Mensual</p>
+                    <p class="plan-discount">💡 Si pagas 3 meses adelantado, recibe descuento</p>
+
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Gestión de Servicio al Cliente (360°)</li>
+                        <li><i class="fas fa-check"></i> Diseño de protocolos de atención completos</li>
+                        <li><i class="fas fa-check"></i> Estandarización de procesos en punto de venta</li>
+                        <li><i class="fas fa-check"></i> Manejo de PQRS y recuperación de clientes</li>
+                        <li><i class="fas fa-check"></i> Customer Journey - Mapa de experiencia</li>
+                        <li><i class="fas fa-check"></i> Optimización de Operación en Punto de Venta</li>
+                        <li><i class="fas fa-check"></i> Diagnóstico operativo completo</li>
+                        <li><i class="fas fa-check"></i> Impulsación y Conversión de Ventas</li>
+                        <li><i class="fas fa-check"></i> Técnicas de cierre efectivas y upselling</li>
+                        <li><i class="fas fa-check"></i> Activaciones comerciales en punto de venta</li>
+                        <li><i class="fas fa-check"></i> Manejo y Liderazgo de Personal</li>
+                        <li><i class="fas fa-check"></i> Reclutamiento y capacitación de perfiles comerciales</li>
+                        <li><i class="fas fa-check"></i> Capacitación Empresarial de Alta Impacto</li>
+                        <li><i class="fas fa-check"></i> Auditoría y Mejora Continua con Mystery Shopper</li>
+                        <li><i class="fas fa-check"></i> Soporte estratégico integral</li>
+                    </ul>
+
+                    <div class="plan-footer">
+                        <p class="plan-slogan">🚀 Transformación operativa total: servicio, ventas, personal y resultados medibles garantizados.</p>
+                        <a href="#contacto" class="btn btn-primary btn-block">Elegir Plan</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plans-note">
+                <p><strong>📌 Nota importante:</strong> Todos los planes se cancelan por adelantado. Si realizas el pago adelantado por 3 meses, se aplica un descuento especial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Opiniones</span>
+                <h2>Lo Que Dicen Mis Clientes</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Excelente profesional. Desde que energia_mp maneja nuestras redes,
+                        hemos visto un crecimiento increíble en seguidores y ventas. Totalmente recomendada."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Hector</strong>
+                        <span>Propietario de Alitashouse</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Su dedicación y profesionalismo son incomparables. Entiende perfectamente
+                        nuestra marca y sabe cómo comunicarla efectivamente."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Carolina Espinoza</strong>
+                        <span>Popietaria de Espident Odontológia Especializada</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "La mejor inversión que hemos hecho. Nuestras redes están en manos expertas
+                        y los resultados hablan por sí solos."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Carolina</strong>
+                        <span>Propietaria - Star Boutique</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Hablemos</span>
+                <h2>¿Listo para Impulsar tu Marca?</h2>
+                <p class="section-description">
+                    Contáctame y descubre cómo puedo ayudarte a llevar tu presencia
+                    digital al siguiente nivel.
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Instagram</h4>
+                            <a href="https://instagram.com/energia_mp" target="_blank">@energia_mp</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <a href="#">+57 3113885827</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:contacto@energia_mp.com">@energia_mp</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Ubicación</h4>
+                            <p>Oriente, Colombia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="nombre" placeholder="Tu Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Tu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="empresa" placeholder="Nombre de tu Empresa">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensaje" rows="5" placeholder="Cuéntame sobre tu proyecto" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Enviar Mensaje
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot de IA -->
+    <div class="ai-chat-container" id="aiChatContainer">
+        <div class="ai-chat-header">
+            <div class="ai-chat-title">
+                <i class="fas fa-robot"></i>
+                <div>
+                    <h4>Asistente Virtual</h4>
+                    <span class="ai-status">En línea</span>
+                </div>
+            </div>
+            <button class="ai-close-btn" id="aiCloseBtn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="ai-chat-messages" id="aiChatMessages">
+            <div class="ai-message ai-message-bot">
+                <div class="ai-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="ai-message-content">
+                    <p>¡Hola! 👋 Soy el asistente virtual de energia_mp. Puedo ayudarte con información sobre:</p>
+                    <ul>
+                        <li>Servicios de Community Manager</li>
+                        <li>Experiencia y proyectos</li>
+                        <li>Empresas gestionadas</li>
+                        <li>Precios y paquetes</li>
+                        <li>Cómo trabajamos</li>
+                    </ul>
+                    <p>¿En qué puedo ayudarte hoy?</p>
+                </div>
+            </div>
+        </div>
+        <div class="ai-quick-questions">
+            <button class="quick-question-btn" data-question="¿Qué servicios ofrecen?">
+                <i class="fas fa-question-circle"></i> ¿Qué servicios ofrecen?
+            </button>
+            <button class="quick-question-btn" data-question="¿Cuánta experiencia tienen?">
+                <i class="fas fa-star"></i> ¿Cuánta experiencia tienen?
+            </button>
+            <button class="quick-question-btn" data-question="¿Cómo puedo contratar?">
+                <i class="fas fa-handshake"></i> ¿Cómo puedo contratar?
+            </button>
+        </div>
+        <div class="ai-chat-input">
+            <input type="text" id="aiChatInput" placeholder="Escribe tu pregunta...">
+            <button id="aiWhatsAppBtn" aria-label="Enviar por WhatsApp" title="Enviar por WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </button>
+            <button id="aiSendBtn" aria-label="Enviar mensaje">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Botón flotante de IA -->
+    <button class="ai-float-btn" id="aiFloatBtn">
+        <i class="fas fa-robot"></i>
+        <span class="ai-badge">1</span>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="image.png" alt="Energia_MP Logo" class="logo-img">
+                        <span>energia_mp</span>
+                    </div>
+                    <p>Community Manager Profesional</p>
+                    <p>Transformando marcas en experiencias digitales</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Sígueme</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/energia_mp" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 energia_mp. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal de confirmación para WhatsApp -->
+    <div id="waConfirmModal" class="wa-modal" aria-hidden="true">
+        <div class="wa-modal-overlay" id="waModalOverlay"></div>
+        <div class="wa-modal-content" role="dialog" aria-modal="true" aria-labelledby="waModalTitle">
+            <h3 id="waModalTitle">Confirmar envío por WhatsApp</h3>
+            <p id="waModalPreview" class="wa-modal-preview"></p>
+            <div class="wa-modal-actions">
+                <button id="waCancelBtn" class="btn btn-secondary">Cancelar</button>
+                <button id="waConfirmBtn" class="btn btn-primary">Confirmar y Abrir WhatsApp</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+ <!-- Marca de agua personal -->
+    <div class="watermark">© By JeronimoCM</div>
+</body>
+</html>
